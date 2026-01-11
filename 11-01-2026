@@ -12,9 +12,9 @@ data['MA50'] = data['Close'].rolling(50).mean()
 print(data.tail())
 
 if data['MA20'].iloc[-1] > data['MA50'].iloc[-1]:
-    print("📈 Trend: BULLISH (Buy Signal)")
+    print("Trend: BULLISH (Buy Signal)")
 else:
-    print("📉 Trend: BEARISH (Sell Signal)")
+    print("Trend: BEARISH (Sell Signal)")
 
 plt.figure()
 plt.plot(data['Close'], label='Close Price')
