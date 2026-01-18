@@ -1,0 +1,11 @@
+import statistics
+
+data = [2, 4, 6, 8, 4, 10]
+
+mean_value = statistics.mean(data)
+mode_value = statistics.mode(data)
+average_value = statistics.mean(data)  # mean = average
+
+print("Mean:", mean_value)
+print("Mode:", mode_value)
+print("Average:", average_value)
