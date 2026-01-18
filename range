@@ -1,0 +1,4 @@
+data = [3, 7, 1, 9, 5]
+
+range_value = max(data) - min(data)
+print("Range:", range_value)
