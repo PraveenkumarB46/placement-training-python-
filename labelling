@@ -1,0 +1,5 @@
+df["Age_Group"] = df["Age"].apply(
+    lambda x: "Young" if x and x < 23 else "Adult"
+)
+
+print(df)
