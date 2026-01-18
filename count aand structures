@@ -1,0 +1,10 @@
+import pandas as pd
+
+df = pd.DataFrame({
+    "Age": [21, 22, None, 24, 22],
+    "City": ["Chennai", "Delhi", "Chennai", None, "Mumbai"]
+})
+
+print("Rows:", df.shape[0])
+print("Columns:", df.shape[1])
+print(df.info())
