@@ -1,0 +1,13 @@
+import pandas as pd
+
+df = pd.DataFrame({
+    "emp_id": [101, 102, 103],
+    "emp_nm": ["Asha", "Ravi", "Kiran"]
+})
+
+df = df.rename(columns={
+    "emp_id": "Employee_ID",
+    "emp_nm": "Employee_Name"
+})
+
+print(df)
